@@ -5,10 +5,10 @@ public class Planet{
 	public double yyVel;
 	public double mass;
 	public String imgFileName;
-	public static final double G = 6.67e-11;
-	public double xdif;
-	public double ydif;
-	public double r;
+	private static final double G = 6.67e-11;
+	private double xdif;
+	private double ydif;
+	private double r;
 
 	public Planet(double xxPos, double yyPos, double xxVel,
               double yyVel, double mass, String imgFileName) {

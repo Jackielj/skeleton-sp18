@@ -116,7 +116,7 @@ public class IntList {
             IntList ptrb = B;
             ptrb = ptrb.rest;
             while (ptrb != null) {
-                b1.rest = new IntList(B.first, null);
+                b1.rest = new IntList(ptrb.first, null);
                 b1 = b1.rest;
                 ptrb = ptrb.rest;
             }
@@ -129,7 +129,7 @@ public class IntList {
             IntList ptra = A;
             ptra = ptra.rest;
             while (ptra != null) {
-                a1.rest = new IntList(B.first, null);
+                a1.rest = new IntList(ptra.first, null);
                 a1 = a1.rest;
                 ptra = ptra.rest;
             }
